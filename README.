@@ -5,8 +5,13 @@
 *'git init' -initialize local git repo 
 *'git add filename' - stage 'filename' for commit
 * 'git commit -m 'msg' -commit to local repo with message 'msg'
-
+* 'git branch -m newName' - change name of current branch
+* 'git congig -l' list rep configurations
 ## Information Commands
 * 'git status' - show commit status of local repo
 * 'git log' - show commit log
 * 'git log -- oneline' - show commit log (compact format) 
+## REMOTE COMMANDS
+*'git remote add origin repoUrl' - vreate alias 'origin' for remote repo 'repoUrl'
+*'git push origin BranchName' - push to remote 'branchName'
+*'git push -u origin branchName' - push to remote branch 'branchName' , making it the default remote
